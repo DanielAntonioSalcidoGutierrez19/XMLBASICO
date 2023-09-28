@@ -1,0 +1,81 @@
+<!DOCTYPE Factura [
+        <!ELEMENT Factura (BusinessContact, BillTo, ShipTo, InvoiceDetails, DescriptionOfServices)>
+        <!ELEMENT BusinessContact (BusinessName, StreetAddress, City, Email, Website)>
+        <!ELEMENT BusinessName (#PCDATA)>
+        <!ELEMENT StreetAddress (#PCDATA)>
+        <!ELEMENT City (#PCDATA)>
+        <!ELEMENT Email (#PCDATA)>
+        <!ELEMENT Website (#PCDATA)>
+
+        <!ELEMENT BillTo (ClientName, BillToAddress)>
+        <!ELEMENT ClientName (#PCDATA)>
+        <!ELEMENT BillToAddress (StreetAddress, City, State, ZipCode)>
+        <!ELEMENT State (#PCDATA)>
+        <!ELEMENT ZipCode (#PCDATA)>
+
+        <!ELEMENT ShipTo (ClientName, ShipToAddress)>
+        <!ELEMENT ShipToAddress (StreetAddress, City, State, ZipCode)>
+
+        <!ELEMENT InvoiceDetails (ClientName, InvoiceNumber, InvoiceDate, TermsOfPayment)>
+        <!ELEMENT InvoiceNumber (#PCDATA)>
+        <!ELEMENT InvoiceDate (#PCDATA)>
+        <!ELEMENT TermsOfPayment (#PCDATA)>
+
+        <!ELEMENT DescriptionOfServices (ProductService+)>
+        <!ELEMENT ProductService (ProductOrService, Description, QtyHr, Rate, Amount)>
+        <!ELEMENT ProductOrService (#PCDATA)>
+        <!ELEMENT Description (#PCDATA)>
+        <!ELEMENT QtyHr (#PCDATA)>
+        <!ELEMENT Rate (#PCDATA)>
+        <!ELEMENT Amount (#PCDATA)>
+        ]>
+
+<Factura>
+    <BusinessContact>
+        <BusinessName>Nombre de la empresa</BusinessName>
+        <StreetAddress>Dirección de la empresa</StreetAddress>
+        <City>Ciudad</City>
+        <Email>correo@empresa.com</Email>
+        <Website>www.empresa.com</Website>
+    </BusinessContact>
+    <BillTo>
+        <ClientName>Nombre del cliente</ClientName>
+        <BillToAddress>
+            <StreetAddress>Dirección del cliente</StreetAddress>
+            <City>Ciudad</City>
+            <State>Estado</State>
+            <ZipCode>Código Postal</ZipCode>
+        </BillToAddress>
+    </BillTo>
+    <ShipTo>
+        <ClientName>Nombre del cliente</ClientName>
+        <ShipToAddress>
+            <StreetAddress>Dirección de envío del cliente</StreetAddress>
+            <City>Ciudad</City>
+            <State>Estado</State>
+            <ZipCode>Código Postal</ZipCode>
+        </ShipToAddress>
+    </ShipTo>
+    <InvoiceDetails>
+        <ClientName>Nombre del cliente</ClientName>
+        <InvoiceNumber>12345</InvoiceNumber>
+        <InvoiceDate>mm/dd/yyyy</InvoiceDate>
+        <TermsOfPayment>Terms Not 30</TermsOfPayment>
+    </InvoiceDetails>
+    <DescriptionOfServices>
+        <ProductService>
+            <ProductOrService>Producto o servicio 1</ProductOrService>
+            <Description>Descripción del producto o servicio 1</Description>
+            <QtyHr>0</QtyHr>
+            <Rate>0</Rate>
+            <Amount>0</Amount>
+        </ProductService>
+        <ProductService>
+            <ProductOrService>Producto o servicio 2</ProductOrService>
+            <Description>Descripción del producto o servicio 2</Description>
+            <QtyHr>0</QtyHr>
+            <Rate>0</Rate>
+            <Amount>0</Amount>
+        </ProductService>
+    </DescriptionOfServices>
+</Factura>

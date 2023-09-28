@@ -1,0 +1,15 @@
+<!ELEMENT TiendaDeDiscos (CDSENOFERTA)>
+        <!ELEMENT CDSENOFERTA (ESPECIFICACIONPRODUCTO)>
+        <!ELEMENT ESPECIFICACIONPRODUCTO (Sencillo1, Sencillo2, Sencillo3, Sencillo4, Sencillo5, Sencillo6)>
+        <!ELEMENT Sencillo1 (Titulo, Artista, Pais, CompañiaDiscografica, Precio, AñoPublicacion)>
+        <!ELEMENT Sencillo2 (Titulo, Artista, Pais, CompañiaDiscografica, Precio, AñoPublicacion)>
+        <!ELEMENT Sencillo3 (Titulo, Artista, Pais, CompañiaDiscografica, Precio, AñoPublicacion)>
+        <!ELEMENT Sencillo4 (Titulo, Artista, Pais, CompañiaDiscografica, Precio, AñoPublicacion)>
+        <!ELEMENT Sencillo5 (Titulo, Artista, Pais, CompañiaDiscografica, Precio, AñoPublicacion)>
+        <!ELEMENT Sencillo6 (Titulo, Artista, Pais, CompañiaDiscografica, Precio, AñoPublicacion)>
+        <!ELEMENT Titulo (#PCDATA)>
+        <!ELEMENT Artista (#PCDATA)>
+        <!ELEMENT Pais (#PCDATA)>
+        <!ELEMENT CompañiaDiscografica (#PCDATA)>
+        <!ELEMENT Precio (#PCDATA)>
+        <!ELEMENT AñoPublicacion (#PCDATA)>

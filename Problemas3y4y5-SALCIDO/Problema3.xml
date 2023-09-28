@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CartaMenu SYSTEM "Problema3.dtd">
+<CartaMenu>
+    <Platillos>
+        <Platillo>
+<Nombre>Gofres Belgas</Nombre>
+   <PrecioenEuros>5.95</PrecioenEuros>
+    <Descripcion>Dos de nuestros famosos Gofres belgas con abundante sirope </Descripcion>
+<Calorias>  650   </Calorias>
+    </Platillo>
+        <Platillo>
+            <Nombre>Gofres Belgas con fresas</Nombre>
+            <PrecioenEuros> 7.95</PrecioenEuros>
+            <Descripcion>Ligeros gofres belgas cubiertos de fresas y nata montada </Descripcion>
+            <Calorias>  900   </Calorias>
+        </Platillo>
+<Platillo>
+    <Nombre>Gofres Belgas con frutas del bosque</Nombre>
+    <PrecioenEuros>8.85 </PrecioenEuros>
+    <Descripcion>Ligeros gofres belgas cubiertos con frutas del bosque y nata montada</Descripcion>
+    <Calorias>-</Calorias>
+    </Platillo>
+<Platillo>
+    <Nombre>Tostada Francesa</Nombre>
+    <PrecioenEuros>4.50 </PrecioenEuros>
+    <Descripcion>Dos gruesas rebanadas de nuestro pan francesas casero </Descripcion>
+    <Calorias>   600  </Calorias>
+    </Platillo>
+        <Platillo>
+    <Nombre>Desayuno de la casa</Nombre>
+    <PrecioenEuros>6.95 </PrecioenEuros>
+    <Descripcion>Dos huevos, bacon o salchichas, tostadas y patatas fritas </Descripcion>
+    <Calorias> 950 </Calorias>
+        </Platillo>
+</Platillos>
+</CartaMenu>

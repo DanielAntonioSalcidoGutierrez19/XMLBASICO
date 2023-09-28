@@ -1,0 +1,10 @@
+
+        <!ELEMENT documentos (p|imagen)*>
+        <!ELEMENT p (destacar)*>
+        <!ELEMENT destacar (#PCDATA)>
+        <!ATTLIST destacar
+                importancia CDATA #REQUIRED>
+        <!ELEMENT imagen (#PCDATA)>
+        <!ATTLIST imagen
+                fichero CDATA #REQUIRED>
+        ]>

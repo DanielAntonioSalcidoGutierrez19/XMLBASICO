@@ -1,0 +1,21 @@
+
+        <!ELEMENT CatalogoArboles (TipoArbol)*>
+        <!ELEMENT TipoArbol (Tipo1|Tipo2|Tipo3|Tipo4|Tipo5)*>
+        <!ELEMENT Tipo1 (Acermonspessulanum)*>
+        <!ELEMENT Acermonspessulanum (NombreComun:|Vegetacion:|Altura:|FormayEstructura:|ColorEnPrimavera:|ResistenciaALasHeladas:)*>
+        <!ELEMENT NombreComun: (#PCDATA)>
+        <!ELEMENT Vegetacion: (#PCDATA)>
+        <!ELEMENT Altura: (#PCDATA)>
+        <!ELEMENT FormayEstructura: (#PCDATA)>
+        <!ELEMENT ColorEnPrimavera: (#PCDATA)>
+        <!ELEMENT ResistenciaALasHeladas: (#PCDATA)>
+        <!ELEMENT Tipo2 (OleaEuropea)*>
+        <!ELEMENT OleaEuropea (NombreComun:|Vegetacion:|Altura:|FormayEstructura:|ColorEnPrimavera:|ResistenciaALasHeladas:)*>
+        <!ELEMENT Tipo3 (RamajeTurtoso)*>
+        <!ELEMENT RamajeTurtoso (NombreComun:|Vegetacion:|Altura:|FormayEstructura:|ColorEnPrimavera:|ResistenciaALasHeladas:)*>
+        <!ELEMENT Tipo4 (PlantusOrientalis)*>
+        <!ELEMENT PlantusOrientalis (NombreComun:|Vegetacion:|Altura:|FormayEstructura:|ColorEnPrimavera:|ColorEnOtoño:|ResistenciaALasHeladas:)*>
+        <!ELEMENT ColorEnOtoño: (#PCDATA)>
+        <!ELEMENT Tipo5 (QuercusIlex)*>
+        <!ELEMENT QuercusIlex (NombreComun:|Vegetacion:|Altura:|FormayEstructura:|ColorEnPrimavera:|ResistenciaALasHeladas:)*>
+       

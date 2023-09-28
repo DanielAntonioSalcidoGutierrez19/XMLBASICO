@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE documentos SYSTEM "problema6punto1.dtd">
+<documentos>
+    <!-- ponemos el 1 entre comillas ya que sino no lo detecta como valor -->
+    <p> Mi Primer  <destacar importancia = "1"> documentoXML </destacar> </p>
+    <p> Comienza con la etiqueta &lt;documento&gt; </p>
+    <p> A continuacion colocamos un elemento sin contenido </p>
+    <imagen fichero="imagen.gif"> </imagen>
+
+</documentos>
+
+
+
+

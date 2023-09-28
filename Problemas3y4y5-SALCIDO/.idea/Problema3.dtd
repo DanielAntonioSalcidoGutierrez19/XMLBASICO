@@ -1,0 +1,7 @@
+ <!ELEMENT CartaMenu (Platillos)>
+        <!ELEMENT Platillos (Platillo+)>
+        <!ELEMENT Platillo (Nombre+, PrecioenEuros+, Descripcion+, Calorias+)>
+        <!ELEMENT Nombre (#PCDATA)>
+        <!ELEMENT PrecioenEuros (#PCDATA)>
+        <!ELEMENT Descripcion (#PCDATA)>
+        <!ELEMENT Calorias (#PCDATA)>
